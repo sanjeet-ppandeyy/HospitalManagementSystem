@@ -35,16 +35,12 @@ Login – Login.java
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20142022.png)
 
 
-🕒 Appointment – Appointment.java
-Schedule appointments between doctors and patients.
-
-
-💳 Billing – Billing.java
-Generate bills with patient name, services, and cost.
+🕒 Check Depatement
+![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20142248.png)
 
 
 🗃️ Database – MySQL
-All records are stored in MySQL with proper table relationships.
+![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-06-10%20234212.png)
 
 
 ✅ Confirmation Popups
@@ -71,10 +67,13 @@ Copy
 Edit
 javac *.java
 java Login
+
 🔑 Login Credentials (Sample)
+
 text
 Copy
 Edit
+
 Username: admin
 Password: admin123
 These credentials are stored in the database. You can modify them directly via SQL.
