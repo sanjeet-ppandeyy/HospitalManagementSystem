@@ -1,44 +1,76 @@
-# 🏥 Hospital Management System
+🏥 Hospital Management System
+A Java Swing + MySQL-based Hospital Management System for managing patient records, doctor details, appointments, and billing. The application features a user-friendly interface and uses JDBC for database interaction.
 
-A Java-based desktop application for managing hospital data such as patient records, staff information, room assignments, and departments. This system uses **Swing** for the user interface and **MySQL** for the backend database.
+🛠️ Technologies Used
+Java (Swing) – GUI
 
-## 📌 Features
+MySQL – Backend database
 
-- Add, update, and discharge patients
-- Assign rooms and update availability
-- Store patient history and personal data
-- Employee and doctor information
-- Departmental record management
-- Ambulance service information
-- User login system with reception dashboard
+JDBC – Database connectivity
 
-## 🛠️ Tech Stack
+Object-Oriented Programming
 
-- **Java** (Swing/AWT)
-- **MySQL** (JDBC)
-- **IDE**: IntelliJ IDEA / Eclipse / NetBeans
-- **JDK**: Java 8+
-
-## 🔧 Project Structure
-
-Hospital-Management-System/
-│
-├── conn.java # DB connection handler
-├── Login.java # Main class with login UI
-├── NEW_PATIENT.java # Add new patient form
-├── patient_discharge.java # Discharge patient logic
-├── Employee_info.java # Staff info panel
-├── Department.java # Department management
-├── Room.java # Room and availability
-├── Ambulance.java # Ambulance data
-├── Reception.java # Receptionist dashboard
-├── ALL_Patient_Info.java # View all patients
-├── /icon # Image icons for UI
+📁 Modules Overview
+🔐 Login – Login.java
+Provides secure access to the system.
 
 
-## 🖥️ How to Run
+🏠 Home – Home.java
+Main dashboard that navigates to all features: patients, doctors, appointments, and billing.
 
-1. **Clone the repository**
-   `bash
-   git clone https://github.com/your-username/hospital-management-system.git
-   cd hospital-management-system
+
+👨‍⚕️ Add Patient – Patient.java
+Add new patient with name, age, gender, disease, etc.
+
+
+📋 View Patients – Patient.java
+View all patient data in a table with update/delete options.
+
+
+👩‍⚕️ Add Doctor – Doctor.java
+Register doctors with name, specialization, and schedule.
+
+
+🕒 Appointment – Appointment.java
+Schedule appointments between doctors and patients.
+
+
+💳 Billing – Billing.java
+Generate bills with patient name, services, and cost.
+
+
+🗃️ Database – MySQL
+All records are stored in MySQL with proper table relationships.
+
+
+✅ Confirmation Popups
+User-friendly success messages on order placement, login, and billing.
+
+
+📦 How to Run
+Set up MySQL Database
+
+Create database and tables manually or via script
+
+Open Project in Java IDE
+
+NetBeans, IntelliJ, Eclipse, etc.
+
+Configure JDBC Connection
+
+Add MySQL JDBC driver to project libraries
+
+Run the App
+
+bash
+Copy
+Edit
+javac *.java
+java Login
+🔑 Login Credentials (Sample)
+text
+Copy
+Edit
+Username: admin
+Password: admin123
+These credentials are stored in the database. You can modify them directly via SQL.
