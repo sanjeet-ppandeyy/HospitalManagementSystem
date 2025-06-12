@@ -1,4 +1,5 @@
 🏥 Hospital Management System
+
 A Java Swing + MySQL-based Hospital Management System for managing patient records, doctor details, appointments, and billing. The application features a user-friendly interface and uses JDBC for database interaction.
 
 🛠️ Technologies Used
@@ -10,9 +11,9 @@ JDBC – Database connectivity
 
 Object-Oriented Programming
 
-📁 Modules Overview
 
-![🔐 Login – Login.java](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20121154.png)
+ScreenShorts of the Project
+![Login – Login.java](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20121154.png)
 
 
 🏠 Home – Home.java
