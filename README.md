@@ -20,19 +20,19 @@ Login – Login.java
 
 
 🏠 Home – Home.java
-Main dashboard that navigates to all features: patients, doctors, appointments, and billing.
+![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20144348.png)
 
 
 👨‍⚕️ Add Patient – Patient.java
-Add new patient with name, age, gender, disease, etc.
+![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20141235.png)
 
 
 📋 View Patients – Patient.java
-View all patient data in a table with update/delete options.
+![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-06-12%20112529.png)
 
 
 👩‍⚕️ Add Doctor – Doctor.java
-Register doctors with name, specialization, and schedule.
+![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20142022.png)
 
 
 🕒 Appointment – Appointment.java
