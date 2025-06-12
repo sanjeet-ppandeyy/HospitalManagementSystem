@@ -1,8 +1,8 @@
-# Hospital Management System
+# 🏥 Hospital Management System
 
 A Java Swing + MySQL-based Hospital Management System for managing patient records, doctor details, appointments, and billing. The application features a user-friendly interface and uses JDBC for database interaction.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Java (Swing) – GUI
 
@@ -13,21 +13,21 @@ JDBC – Database connectivity
 Object-Oriented Programming
 
 
-ScreenShorts of the Project
+## ScreenShorts of the Project
 
-Login – Login.java
+### Login – Login.java
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20121154.png)
 
 
-🏠 Home – Home.java
+### 🏠 Home – Home.java
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20144348.png)
 
 
-👨‍⚕️ Add Patient – Patient.java
+### 👨‍⚕️ Add Patient – Patient.java
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20141235.png)
 
 
-📋 View Patients – Patient.java
+### 📋 View Patients – Patient.java
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-06-12%20112529.png)
 
 
@@ -35,11 +35,11 @@ Login – Login.java
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20142022.png)
 
 
-🕒 Check Depatement
+### 🕒 Check Depatement
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-05-21%20142248.png)
 
 
-🗃️ Database – MySQL
+### 🗃️ Database – MySQL
 ![](https://github.com/sanjeet-ppandeyy/HospitalManagementSystem/blob/main/Screenshot%202025-06-10%20234212.png)
 
 
@@ -47,7 +47,7 @@ Login – Login.java
 User-friendly success messages on order placement, login, and billing.
 
 
-📦 How to Run
+## 📦 How to Run
 Set up MySQL Database
 
 Create database and tables manually or via script
@@ -60,7 +60,7 @@ Configure JDBC Connection
 
 Add MySQL JDBC driver to project libraries
 
-Run the App
+## Run the App
 
 bash
 Copy
@@ -68,7 +68,7 @@ Edit
 javac *.java
 java Login
 
-🔑 Login Credentials (Sample)
+## 🔑 Login Credentials (Sample)
 
 text
 Copy
