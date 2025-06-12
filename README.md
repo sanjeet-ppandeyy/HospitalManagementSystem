@@ -1,4 +1,4 @@
-🏥 Hospital Management System
+#🏥 Hospital Management System
 
 A Java Swing + MySQL-based Hospital Management System for managing patient records, doctor details, appointments, and billing. The application features a user-friendly interface and uses JDBC for database interaction.
 
